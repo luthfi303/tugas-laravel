@@ -84,10 +84,10 @@
             <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
                 <div class="container header">
                     <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-regular" src="assets/img/logo/logo-white.png" alt="brand-logo">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
+                 <a class="navbar-brand" href="{{ url('/') }}">
+                    <img class="navbar-brand-regular" src="{{ asset('template/assets/img/logo/logo-white.png') }}" alt="brand-logo">
+                    <img class="navbar-brand-sticky" src="{{ asset('template/assets/img/logo/logo.png') }}" alt="sticky brand-logo">
+                </a>
                     <div class="ml-auto"></div>
                     <!-- Navbar -->
                     <ul class="navbar-nav items">
